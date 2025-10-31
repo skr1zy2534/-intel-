@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Форма обратной связи</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html.html" class="logo"><img src="Логотип.png" alt="Логотип" width="150" height="70"></a>
+    
+    <nav>
+        <a href="index.html.html">Главная</a>
+        <a href="about.html">О нас</a>
+        <a href="services.html">Услуги</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="form.html">Форма</a>
+        <a href="frames.html">Фреймы</a>
+    </nav>
+
+    <h1>Форма обратной связи</h1>
+    
+    <!-- Специальный параграф с Times New Roman -->
+    <p class="special">Обратная связь</p>
+    
+    <form class="contact-form">
+        <label>Имя:</label>
+        <input type="text" name="name"><br><br>
+        
+        <label>Email:</label>
+        <input type="email" name="email"><br><br>
+        
+        <label>Тип запроса:</label><br>
+        <input type="radio" name="type" value="question"> Вопрос<br>
+        <input type="radio" name="type" value="complaint"> Жалоба<br>
+        <input type="radio" name="type" value="suggestion"> Предложение<br><br>
+        
+        <label>Услуга:</label>
+        <select name="service">
+            <option value="tech">Техподдержка</option>
+            <option value="sales">Продажи</option>
+            <option value="service">Сервис</option>
+        </select><br><br>
+        
+        <label>Сообщение:</label><br>
+        <textarea name="message" rows="4"></textarea><br><br>
+        
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>

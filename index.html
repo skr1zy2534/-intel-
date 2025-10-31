@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .dropdown {
+            margin: 10px 0;
+        }
+        
+        .dropdown summary {
+            background: #0071c5;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+        .dropdown-content {
+            background: white;
+            padding: 15px;
+            border: 1px solid #ddd;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="logo"><img src="Логотип.png" alt="Логотип компании" width="150" height="70"></a>
+    
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">О нас</a>
+        <a href="services.html">Услуги</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="frames.html">Фреймы</a>
+    </nav>
+    
+    <h1>Добро пожаловать на наш сайт!</h1>
+    
+    <p class="special">Лучшие технологии для вас!</p>
+    
+    <div class="gif-container">
+        <img src="Гифка с Gifius.ru.gif" alt="Анимированная гифка" width="300" height="200">
+    </div>
+
+    <!-- Раскрывающиеся списки -->
+    <details class="dropdown">
+        <summary>Наши преимущества</summary>
+        <div class="dropdown-content">
+            <ol>
+                <li>Высокое качество продукции</li>
+                <li>Быстрая доставка</li>
+                <li>Техническая поддержка 24/7</li>
+                <li>Конкурентные цены</li>
+                <li>Гарантия на все товары</li>
+            </ol>
+        </div>
+    </details>
+
+    <details class="dropdown">
+        <summary>Наши услуги</summary>
+        <div class="dropdown-content">
+            <ul class="square-list">
+                <li>Техническое обслуживание</li>
+                <li>Ремонт оборудования</li>
+                <li>Консультации специалистов</li>
+                <li>Обучение персонала</li>
+                <li>IT-аудит</li>
+            </ul>
+        </div>
+    </details>
+
+    <details class="dropdown">
+        <summary>Документы для скачивания</summary>
+        <div class="dropdown-content">
+            <ul>
+                <li><a href="Информация.pdf">Информация в PDF</a></li>
+                <li><a href="Информация.doc">Информация в DOC</a></li>
+                <li><a href="pricewit.xlsx">Данные в XLS</a></li>
+                <li><a href="Компания.jpg">Фотография JPG</a></li>
+            </ul>
+        </div>
+    </details>
+
+    <details class="dropdown">
+        <summary>Контакты и поддержка</summary>
+        <div class="dropdown-content">
+            <p><strong>Телефон:</strong> +7 (123) 456-78-90</p>
+            <p><strong>Email:</strong> info@company.com</p>
+            <p><strong>Адрес:</strong> г. Москва, ул. Примерная, д. 1</p>
+        </div>
+    </details>
+
+    <details class="dropdown">
+        <summary>Часто задаваемые вопросы</summary>
+        <div class="dropdown-content">
+            <p><strong>Вопрос 1:</strong> Как оформить заказ?</p>
+            <p>Ответ: Позвоните нам или напишите на email.</p>
+            <p><strong>Вопрос 2:</strong> Есть ли доставка?</p>
+            <p>Ответ: Да, доставляем по всему городу.</p>
+            <p><strong>Вопрос 3:</strong> Какие гарантии?</p>
+            <p>Ответ: Гарантия 1 год на все товары.</p>
+        </div>
+    </details>
+</body>
+</html>

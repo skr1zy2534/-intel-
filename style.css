@@ -1,0 +1,89 @@
+body {
+    background-color: #f0f8ff;
+    font-family: Arial;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+.logo {
+    display: block;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #4CAF50;
+}
+
+.service {
+    background-color: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 5px solid #0071c5;
+    border-radius: 5px;
+}
+
+.service h3 {
+    color: #0071c5;
+    margin-top: 0;
+}
+
+p.special {
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.square-list {
+    list-style-type: square;
+}
+
+.gif-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.content-block {
+    display: flex;
+    margin-top: 20px;
+}
+
+.content-block img {
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+}
+.dropdown {
+    margin: 10px 0;
+}
+
+.dropdown summary {
+    background: #0071c5;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    border-radius: 5px;
+}
